@@ -15,6 +15,7 @@
 		67E1A317200733EE00BB829A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E1A316200733EE00BB829A /* main.m */; };
 		67E1A321200733EE00BB829A /* WWCProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E1A320200733EE00BB829A /* WWCProtocolManagerTests.m */; };
 		67E1A32C200733EE00BB829A /* WWCProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E1A32B200733EE00BB829A /* WWCProtocolManagerUITests.m */; };
+		67E1A33C2007344E00BB829A /* CRProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E1A33B2007344E00BB829A /* CRProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		67E1A327200733EE00BB829A /* WWCProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWCProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E1A32B200733EE00BB829A /* WWCProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWCProtocolManagerUITests.m; sourceTree = "<group>"; };
 		67E1A32D200733EE00BB829A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E1A33A2007344E00BB829A /* CRProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRProtocolManager.h; sourceTree = "<group>"; };
+		67E1A33B2007344E00BB829A /* CRProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		67E1A306200733EE00BB829A /* WWCProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
+				67E1A3392007344E00BB829A /* WWCProtocolManager */,
 				67E1A307200733EE00BB829A /* AppDelegate.h */,
 				67E1A308200733EE00BB829A /* AppDelegate.m */,
 				67E1A30A200733EE00BB829A /* ViewController.h */,
@@ -130,6 +134,15 @@
 				67E1A32D200733EE00BB829A /* Info.plist */,
 			);
 			path = WWCProtocolManagerUITests;
+			sourceTree = "<group>";
+		};
+		67E1A3392007344E00BB829A /* WWCProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				67E1A33A2007344E00BB829A /* CRProtocolManager.h */,
+				67E1A33B2007344E00BB829A /* CRProtocolManager.m */,
+			);
+			path = WWCProtocolManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E1A33C2007344E00BB829A /* CRProtocolManager.m in Sources */,
 				67E1A30C200733EE00BB829A /* ViewController.m in Sources */,
 				67E1A317200733EE00BB829A /* main.m in Sources */,
 				67E1A309200733EE00BB829A /* AppDelegate.m in Sources */,

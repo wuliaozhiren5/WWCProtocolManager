@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CRProtocolManager.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [CRProtocolManager registServiceProvide:self forProtocol:@protocol(TestProtocol)];
+    
+    id<TestProtocol>provide = [CRProtocolManager serviceProvideForProtocol:@protocol(TestProtocol)];
 }
 
 
