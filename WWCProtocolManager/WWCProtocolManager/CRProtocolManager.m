@@ -44,8 +44,5 @@
 + (id)serviceProvideForProtocol:(Protocol *)protocol
 {
     return [[self sharedInstance].serviceProvideSource objectForKey:NSStringFromProtocol(protocol)];
-}
-
-
-
+} 
 @end
